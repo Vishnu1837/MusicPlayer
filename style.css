@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #121212;
+    color: white; /* Default text color */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 89px;
+    background-color: transparent;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 100px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    min-height: 60vh;
+    background-image: linear-gradient(to right, #2a2a2a, #2f2f2f);
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 20px;
+    padding: 34px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bottom {
+    position: sticky;
+    height: 150px;
+    background-color: #343333;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.icons img {
+    margin-right: 80px;
+}
+
+#myProgressBar {
+    width: 80vw;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songItem img {
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 34px;
+    cursor: pointer;
+}
+
+.songItem span {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.songItem span:first-child {
+    margin-right: auto;
+}
+
+.songlistplay {
+    display: flex;
+    align-items: center;
+}
+
+.songlistplay span {
+    margin-right: 20px;
+}
+
+.timestamp {
+    margin-left: 23px;
+}
+
+.songInfo {
+    color: white;
+}
